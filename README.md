@@ -85,8 +85,8 @@ Real-time STT/TTS streaming pipeline with multilingual intent classification. Re
 
 ## By the numbers
 
-| Top 110 / 54,617 at ET GenAI 2026 | 10K+ sentences/sec at VISWAM.AI | 100+ LeetCode | 3rd Year @ IFHE |
-|---|---|---|---|
+| Top 110 / 54,617 at ET GenAI 2026 | 10K+ sentences/sec at VISWAM.AI - reducing training time by ~30% | Top 20 nationally, TechSprint 2025-26 (1,000+ teams) |
+|---|---|---|
 
 ---
 
