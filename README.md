@@ -93,8 +93,7 @@ Real-time STT/TTS streaming pipeline with multilingual intent classification. Re
 ## Activity
 
 <div align="center">
-<img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=charan270469&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true"/>
-<img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api/top-langs/?username=charan270469&layout=compact&theme=react&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=charan270469&theme=react&hide_border=true" height="160"/>
 </div>
 
 ---
