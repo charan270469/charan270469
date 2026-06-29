@@ -48,38 +48,38 @@ Final year B.Tech Computer Science(Data Science & AI) @ IFHE Hyderabad. I came u
 
 ## Things I've built
 
-### [AutoOps AI](https://github.com/charan270469/autoops_ai) — Multi-Agent Orchestration Engine
+### [AutoOps AI](https://github.com/charan270469/autoops_ai) : Multi-Agent Orchestration Engine
 Fault-tolerant multi-agent system with planner/executor separation, self-healing retry chains, and a real-time WebSocket dashboard for live agent state. Built end-to-end in 48 hours at ET GenAI Hackathon 2026. Cryptographically verifiable audit trail on every decision. 80%+ autonomous task completion across 12 enterprise scenarios.
 
 `Node.js` `TypeScript` `WebSocket` `Groq Llama 3.3 70B` `n8n` `React` · **Top ~110 / 54,617 teams**
 
 ---
 
-### [LoanLens AI](https://github.com/charan270469/loanlens) — Credit Risk & Loan Underwriting Platform
+### [LoanLens AI](https://github.com/charan270469/loanlens) : Credit Risk & Loan Underwriting Platform
 XGBoost/LightGBM/CatBoost ensemble calibrated with isotonic regression, SHAP explainability on every prediction, and a structured query layer over FAISS + MongoDB for document-grounded lending decisions. AUC 0.791 · KS 0.445 · ECE 0.032 on a 750-sample holdout.
 
 `FastAPI` `React` `TypeScript` `XGBoost` `LightGBM` `LangChain` `FAISS` `SHAP`
 
 ---
 
-### [MediSense AI](https://github.com/charan270469/medisense) — Intelligent Medical Assistant
+### [MediSense AI](https://github.com/charan270469/medisense) : Intelligent Medical Assistant
 Multimodal RAG pipeline with Groq VLM-based OCR for clinical reasoning over structured and unstructured patient data. Longitudinal biomarker tracking, JWT + Google OAuth, full LangChain ingestion stack.
 
 `Express.js` `React` `TypeScript` `MongoDB` `Groq VLM` `LangChain RAG` `JWT`
 
 ---
 
-### [ScanGo](https://github.com/charan270469/scan-go) — AI Smart Retail Ecosystem
+### [ScanGo](https://github.com/charan270469/scan-go) : AI Smart Retail Ecosystem
 Real-time inventory sync over WebSocket with optimistic locking to prevent write conflicts under concurrent load. Automated checkout cutting manual steps 60%. On-chain receipt log for tamper-evident auditability.
 
 `Node.js` `WebSocket` `Ethers.js` `Automation` · **Top 20 nationally, TechSprint 2025-26 · Top 80, NEXTGEN-AI 2026**
 
 ---
 
-### [FinVoice](https://github.com/charan270469/finvoice) — Voice-First Multilingual AI Banking Assistant
+### [FinVoice](https://github.com/charan270469/finvoice) : Voice-First Multilingual AI Banking Assistant
 Real-time STT/TTS streaming pipeline with multilingual intent classification. Resolved WebSocket latency bottlenecks under 48-hour hackathon constraints, lifting pipeline availability ~35%.
 
-`FastAPI` `React` `TypeScript` `Groq` `WebSocket` · **Agentathon 2025 — Guinness World Record event, ~2,400 participants**
+`FastAPI` `React` `TypeScript` `Groq` `WebSocket` · **Agentathon 2025, Guinness World Record event, ~2,400 participants**
 
 ---
 
@@ -93,8 +93,8 @@ Real-time STT/TTS streaming pipeline with multilingual intent classification. Re
 ## Activity
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=charan270469&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true" height="160"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=charan270469&layout=compact&theme=react&hide_border=true" height="160"/>
+<img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=charan270469&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true"/>
+<img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api/top-langs/?username=charan270469&layout=compact&theme=react&hide_border=true"/>
 </div>
 
 ---
