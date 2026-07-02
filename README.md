@@ -90,23 +90,6 @@ Real-time STT/TTS streaming pipeline with multilingual intent classification. Re
 
 ---
 
-## Activity
-
-<div align="center">
-<img src="https://github-readme-stats-self-eta-11.vercel.app/api?username=charan270469&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true" height="160"/>
-<img src="https://github-readme-stats-self-eta-11.vercel.app/api/top-langs/?username=charan270469&layout=compact&theme=react&hide_border=true" height="160"/>
-</div>
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/charan270469/charan270469/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/charan270469/charan270469/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/charan270469/charan270469/output/pacman-contribution-graph.svg">
-</picture>
-</div>
-
----
-
 ## Currently
 
 Interned at VISWAM.AI (India's first large-scale Telugu LLM) · Shipping more agentic systems · Open to AI/ML and SWE internships (2025–26, PPO preferred)
