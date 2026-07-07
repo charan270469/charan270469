@@ -313,16 +313,6 @@ Optimized cloud storage economics on a live Azure IoT data pipeline without sacr
 
 ---
 
-## <img src="https://img.shields.io/badge/-10-6D28D9?style=flat-square"/> GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=charan270469&theme=algolia&no-frame=true&no-bg=true&row=1&column=6&margin-w=8" />
-
-</div>
-
----
-
 ## <img src="https://img.shields.io/badge/-11-7C3AED?style=flat-square"/> Contribution Activity
 
 <div align="center">
