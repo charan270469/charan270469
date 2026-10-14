@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/charan270469/charan270469/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%"/>
 
-<br/>
+<br/><br/>
 
 <img src="./assets/banner.webp" alt="Charan. Developer and Designer." width="100%"/>
 
