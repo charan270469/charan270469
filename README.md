@@ -8,6 +8,8 @@
 
 <br/>
 
+<br>
+
 <a href="https://saicharandev.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-saicharandev.netlify.app-F2B98A?style=for-the-badge&labelColor=282524&logoColor=F2B98A&logo=googlechrome"/></a>
 <a href="https://www.linkedin.com/in/sai-charan-aiml/"><img src="https://img.shields.io/badge/LINKEDIN-1,140+_followers-F2B98A?style=for-the-badge&labelColor=282524&logo=linkedin&logoColor=F2B98A"/></a>
 <a href="mailto:narahc2704@gmail.com"><img src="https://img.shields.io/badge/EMAIL-narahc2704@gmail.com-F2B98A?style=for-the-badge&labelColor=282524&logo=gmail&logoColor=F2B98A"/></a>
