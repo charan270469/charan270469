@@ -6,7 +6,7 @@
 
 <img src="./assets/banner.webp" alt="Charan. Developer and Designer." width="100%"/>
 
-<br/>
+<br/><br/>
 
 <a href="https://saicharandev.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-saicharandev.netlify.app-F2B98A?style=for-the-badge&labelColor=282524&logoColor=F2B98A&logo=googlechrome"/></a>
 <a href="https://www.linkedin.com/in/sai-charan-aiml/"><img src="https://img.shields.io/badge/LINKEDIN-1,140+_followers-F2B98A?style=for-the-badge&labelColor=282524&logo=linkedin&logoColor=F2B98A"/></a>
@@ -303,8 +303,6 @@ If you are building with LLMs, agents or full stack AI products and want someone
 <div align="center">
 
 <a href="https://saicharandev.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-saicharandev.netlify.app-F2B98A?style=for-the-badge&labelColor=282524&logo=googlechrome&logoColor=F2B98A"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/sai-charan-aiml/"><img src="https://img.shields.io/badge/LINKEDIN-1,140+_followers-F2B98A?style=for-the-badge&labelColor=282524&logo=linkedin&logoColor=F2B98A"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/charan270469"><img src="https://img.shields.io/badge/GITHUB-charan270469-F2B98A?style=for-the-badge&labelColor=282524&logo=github&logoColor=F2B98A"/></a>
-
-<br/>
 
 <a href="https://leetcode.com/charan_2369/"><img src="https://img.shields.io/badge/LEETCODE-charan__2369-F2B98A?style=for-the-badge&labelColor=282524&logo=leetcode&logoColor=F2B98A"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:narahc2704@gmail.com"><img src="https://img.shields.io/badge/EMAIL-narahc2704@gmail.com-F2B98A?style=for-the-badge&labelColor=282524&logo=gmail&logoColor=F2B98A"/></a>
 
