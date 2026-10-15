@@ -46,10 +46,10 @@ That mix shows up in everything I ship: <b>auditable decisions, graceful failure
 
 ## 🧭 HOW I BUILD
 
-- 🎯 **Precision over noise.** Cheap rules filter spam before the LLM is ever called.
-- 🛡️ **Failure is a feature.** Every step retries, falls back and is logged.
-- 🔍 **Explain every decision.** SHAP reasons and confidence ship with every verdict.
-- 🎨 **Design is not decoration.** The interface is part of the architecture.
+- 🎯 **Precision over noise.** Cheap deterministic rules in DailyEz filter obvious spam before any LLM call, cutting false positives.
+- 🛡️ **Failure is a feature.** AutoOps retries, falls back or rolls back every failed action, and logs each step.
+- 🔍 **Explain every decision.** LoanLens ships SHAP reasons and DailyEz ships confidence, so no decision is a black box.
+- 🎨 **Design is not decoration.** Branding taught me clarity builds trust, so I treat the interface as architecture.
 
 <br/>
 
