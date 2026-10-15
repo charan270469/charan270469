@@ -32,10 +32,15 @@ That mix shows up in everything I ship: <b>auditable decisions, graceful failure
 
 ## ⚡ HIGHLIGHTS
 
+
+<div align="center">
+
 | | | |
 |:--:|:--:|:--:|
 | **Top 110 / 54,617**<br/>teams, ET GenAI Hackathon 2026 | **10K+ sentences/sec**<br/>on a 1B parameter Telugu LLM | **30% faster**<br/>training with LoRA and SFT pipelines |
 | **AUC 0.791**<br/>calibrated credit risk model (ECE 0.032) | **~2,400 participants**<br/>Guinness World Record hackathon | **7 shipped projects**<br/>agents, RAG, voice, ML and full stack |
+
+</div>
 
 <br/>
 
@@ -278,12 +283,17 @@ That mix shows up in everything I ship: <b>auditable decisions, graceful failure
 
 ## 🏆 RECOGNITION
 
+
+<div align="center">
+
 | | |
 |:--|:--|
 | **ET GenAI Hackathon 2026** | Semi-finalist, Top 110 of 54,617 teams (AutoOps AI) |
 | **TechSprint 2025-26** | Top 20 nationally (ScanGo) |
 | **NEXTGEN-AI 2026** | Top 80 of 1,000+ teams (ScanGo) |
 | **Agentathon 2025** | Guinness World Record event, ~2,400 participants (FinVoice) |
+
+</div>
 
 <br/>
 
