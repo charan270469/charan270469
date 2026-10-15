@@ -46,10 +46,10 @@ That mix shows up in everything I ship: <b>auditable decisions, graceful failure
 
 ## 🧭 HOW I BUILD
 
-- 🎯 **Precision over noise.** In DailyEz, cheap deterministic rules screen out obvious spam before the LLM is ever called, so the model only spends effort on messages that could genuinely matter. Fewer false positives, fewer API calls.
-- 🛡️ **Failure is a feature.** AutoOps AI assumes things will break, so every action is retried, escalated or rolled back through a defined fallback chain. Nothing fails silently, and every step lands in the audit trail.
-- 🔍 **Explain every decision.** LoanLens AI attaches SHAP reasons to every prediction, and DailyEz returns a confidence score with its reasoning on every verdict. If a system cannot show why it decided something, it should not be trusted with the decision.
-- 🎨 **Design is not decoration.** My years in branding taught me that clarity is what makes people trust a product. So I treat the interface as part of the architecture, not a coat of paint on top.
+- 🎯 **Precision over noise.** Cheap rules filter spam before the LLM is ever called.
+- 🛡️ **Failure is a feature.** Every step retries, falls back and is logged.
+- 🔍 **Explain every decision.** SHAP reasons and confidence ship with every verdict.
+- 🎨 **Design is not decoration.** The interface is part of the architecture.
 
 <br/>
 
