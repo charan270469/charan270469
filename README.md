@@ -6,7 +6,7 @@
 
 <img src="./assets/banner.webp" alt="Charan. Developer and Designer." width="100%"/>
 
-<br/><br/>
+<br/>
 
 <a href="https://saicharandev.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-saicharandev.netlify.app-F2B98A?style=for-the-badge&labelColor=282524&logoColor=F2B98A&logo=googlechrome"/></a>
 <a href="https://www.linkedin.com/in/sai-charan-aiml/"><img src="https://img.shields.io/badge/LINKEDIN-1,140+_followers-F2B98A?style=for-the-badge&labelColor=282524&logo=linkedin&logoColor=F2B98A"/></a>
@@ -21,17 +21,37 @@
 
 <br/>
 
-## ABOUT
+## 👋 ABOUT ME
 
-Final year B.Tech student (Data Science & AI) at **ICFAI Hyderabad**, graduating **May 2027**, GPA **8.24 / 10**. I build **agentic LLM systems, RAG pipelines and full stack products**, and ship them under real deadlines: hackathons with tens of thousands of teams, then hardened like production software.
+> **Detach & do it...**
 
-Before engineering, I spent **3+ years in brand and graphic design across 50+ clients**. It shows in how I build: clear architecture, auditable decisions, interfaces that do not look like side projects.
+I started as a **designer**. For 3+ years I built brands for 50+ clients, which taught me to obsess over how things look, feel and communicate. Then I got pulled into the part that makes products actually *think*: data, LLMs and agents. Today I am a final year **B.Tech (Data Science & AI)** student at **ICFAI Hyderabad** (graduating **May 2027**, GPA **8.24 / 10**), and I build systems where the architecture is as deliberate as the interface.
 
-**Open to** AI/ML engineering, GenAI/LLM and full stack internships. Hyderabad or remote. PPO track preferred.
+That mix shows up in everything I ship: **auditable decisions, graceful failure and interfaces that do not feel like side projects.** I test those ideas under real pressure, at hackathons with tens of thousands of teams, then harden the winners like production software.
+
+🎯 **Open to** AI/ML engineering, GenAI/LLM and full stack internships &nbsp;|&nbsp; 📍 Hyderabad or remote &nbsp;|&nbsp; 🤝 PPO track preferred
 
 <br/>
 
-## TECH STACK
+## ⚡ HIGHLIGHTS
+
+| | | |
+|:--:|:--:|:--:|
+| **Top 110 / 54,617**<br/>teams, ET GenAI Hackathon 2026 | **10K+ sentences/sec**<br/>on a 1B parameter Telugu LLM | **30% faster**<br/>training with LoRA and SFT pipelines |
+| **AUC 0.791**<br/>calibrated credit risk model (ECE 0.032) | **~2,400 participants**<br/>Guinness World Record hackathon | **7 shipped projects**<br/>agents, RAG, voice, ML and full stack |
+
+<br/>
+
+## 🧭 HOW I BUILD
+
+- 🎯 **Precision over noise.** DailyEz puts a deterministic filter in front of the LLM so cheap rules catch obvious false positives before any API call.
+- 🛡️ **Failure is a feature.** AutoOps AI plans, executes, retries, falls back and logs every step, so a broken action never silently breaks the run.
+- 🔍 **Explain every decision.** LoanLens AI ships SHAP explanations with every prediction, and DailyEz returns confidence and reasoning with every verdict.
+- 🎨 **Design is not decoration.** It is how a system earns trust, so I treat the UI as part of the architecture.
+
+<br/>
+
+## 🧰 TECH STACK
 
 <div align="center">
 <table>
@@ -77,7 +97,7 @@ Before engineering, I spent **3+ years in brand and graphic design across 50+ cl
 
 <br/>
 
-## ANALYTICS
+## 📊 GITHUB ANALYTICS
 
 <div align="center">
 <table>
@@ -94,143 +114,149 @@ Before engineering, I spent **3+ years in brand and graphic design across 50+ cl
 
 <br/>
 
-## FEATURED PROJECTS
+## 🚀 FEATURED PROJECTS
 
 <details>
-<summary><b>DailyEz</b> &nbsp;|&nbsp; AI powered unified inbox</summary>
+<summary><b>📬 DailyEz</b> &nbsp;|&nbsp; AI unified inbox &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-Triage engine that finds the messages that matter across inbox and chat platforms.
+**The problem:** the messages that change your career, like interviews and recruiter replies, get buried under newsletters, job board spam and community chat noise.
+
+**The idea:** instead of keywords, you describe what matters in plain language. These are your *Signals*. A strict, precision first LLM reasons about sender, topic and event intent, then returns a verdict with confidence and auditable reasoning.
 
 | | |
 |:--|:--|
 | **Stack** | React 19, TypeScript, Node.js, Express, MongoDB, Groq Llama 3.3 70B, Whisper, Google OAuth 2.0 |
-| **Challenge** | High signal messages (interviews, recruiter outreach, real opportunities) get buried under newsletters, job board spam and community chat noise. |
-| **Approach** | Users define intent in plain language (Signals) instead of keywords. A strict precision over recall LLM reasons about sender, topic and event intent and returns a verdict with confidence and auditable reasoning. A deterministic domain pre filter blocks false positives, such as job board spam impersonating a named institution, before they reach the LLM, cutting API calls. |
-| **Result** | Working Gmail pipeline with OAuth2 refresh token persistence and dedupe safe ingestion, plus a Whisper to Groq voice agent that summarizes inbox activity, creates signals and navigates the app hands free. WhatsApp ingestion via Baileys, with Discord next. |
-| **Links** | [GitHub](https://github.com/charan270469/dailyez) |
+| **Guardrail** | A deterministic domain pre filter blocks false positives (for example job board spam impersonating a named institution) before they reach the LLM, which also cuts API calls. |
+| **Shipped** | Gmail pipeline with OAuth2 refresh token persistence and dedupe safe ingestion, plus a Whisper to Groq voice agent that summarizes inbox activity, creates signals and navigates the app hands free. |
+| **Next** | WhatsApp ingestion via Baileys, then Discord: group chat summaries, @mention alerts and JD based candidate filtering for recruiters. |
+
+🔗 [GitHub repo](https://github.com/charan270469/dailyez)
 
 </details>
 
 <details>
-<summary><b>AutoOps AI</b> &nbsp;|&nbsp; Multi agent orchestration engine</summary>
+<summary><b>🤖 AutoOps AI</b> &nbsp;|&nbsp; Multi agent orchestration engine &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-Fault tolerant engine with planner and executor separation, self healing retry and fallback chains, and a verifiable audit trail. Every action is retried, escalated or rolled back through defined fallbacks, with a live WebSocket dashboard showing agent state.
+**The story:** built in 48 hours for the ET GenAI Hackathon, where most teams shipped a single agent demo. I built an engine that treats failure as a first class citizen. A planner decides, executors act, and every step is retried, escalated or rolled back through defined fallback chains, with a verifiable audit trail and a live WebSocket dashboard showing agent state.
 
 | | |
 |:--|:--|
 | **Stack** | Node.js, TypeScript, WebSocket, Groq Llama 3.3 70B, n8n, React |
 | **Scale** | 12 enterprise automation scenarios with concurrent multi agent execution |
 | **Performance** | 80%+ autonomous task completion |
-| **Impact** | Semi finalist, Top 110 of 54,617 teams, ET GenAI Hackathon 2026 |
-| **Links** | [GitHub](https://github.com/charan270469/autoops_ai) &nbsp;|&nbsp; [Walkthrough](https://drive.google.com/file/d/1ZWAW8bVxsTcjMI7AtAJwUkqF6SSlElbS/view?usp=drive_link) |
+| **Result** | 🏆 Semi finalist, Top 110 of 54,617 teams, ET GenAI Hackathon 2026 |
+
+🔗 [GitHub repo](https://github.com/charan270469/autoops_ai) &nbsp;|&nbsp; 🎬 [Demo walkthrough](https://drive.google.com/file/d/1ZWAW8bVxsTcjMI7AtAJwUkqF6SSlElbS/view?usp=drive_link)
 
 </details>
 
 <details>
-<summary><b>LoanLens AI</b> &nbsp;|&nbsp; Credit risk and underwriting platform</summary>
+<summary><b>🏦 LoanLens AI</b> &nbsp;|&nbsp; Credit risk and underwriting platform &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-Calibrated gradient boosting ensemble with document grounded RAG. A structured query planner over FAISS and MongoDB gives metadata filtered semantic search across lending documents to support underwriting decisions.
+**The story:** a credit model is only useful if a human can trust and audit it. LoanLens pairs a calibrated gradient boosting ensemble with document grounded RAG, so every score comes with the reasons behind it and the lending documents that support it.
 
 | | |
 |:--|:--|
 | **Stack** | FastAPI, React, TypeScript, XGBoost, LightGBM, LangChain, FAISS, SHAP |
-| **Scale** | PD, LGD and EAD scoring pipeline, 750 sample holdout evaluation |
-| **Performance** | AUC 0.791, KS 0.445, ECE 0.032 (isotonic calibrated) |
-| **Explainability** | SHAP explanations generated for every prediction |
-| **Links** | [GitHub](https://github.com/charan270469/loanlens) &nbsp;|&nbsp; [Walkthrough](https://drive.google.com/file/d/15edJSfJa7CXrmdgkBZ-Ch4mU5jFx-n7j/view?usp=drive_link) |
+| **Pipeline** | PD, LGD and EAD scoring, isotonic calibrated, evaluated on a 750 sample holdout |
+| **Performance** | AUC 0.791, KS 0.445, ECE 0.032 |
+| **Retrieval** | Structured query planner over FAISS and MongoDB for metadata filtered semantic search across lending documents |
+
+🔗 [GitHub repo](https://github.com/charan270469/loanlens) &nbsp;|&nbsp; 🎬 [Demo walkthrough](https://drive.google.com/file/d/15edJSfJa7CXrmdgkBZ-Ch4mU5jFx-n7j/view?usp=drive_link)
 
 </details>
 
 <details>
-<summary><b>MediSense AI</b> &nbsp;|&nbsp; Multimodal medical assistant</summary>
+<summary><b>🩺 MediSense AI</b> &nbsp;|&nbsp; Multimodal medical assistant &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-RAG based assistant with a vision pipeline and secured patient data handling.
+**The story:** medical history lives in two worlds, structured records and scanned reports. MediSense puts both on one retrieval surface. A Groq VLM reads scanned documents with OCR and feeds a LangChain RAG layer, so clinical reasoning works across everything, with secured patient data handling.
 
 | | |
 |:--|:--|
 | **Stack** | Express, React, TypeScript, MongoDB, Groq VLM, LangChain RAG, JWT, Google OAuth |
-| **Approach** | Groq VLM OCR feeds a LangChain ingestion layer, so clinical reasoning runs over structured records and scanned documents in one retrieval surface. |
-| **Impact** | Longitudinal biomarker tracking across patient history |
-| **Links** | [GitHub](https://github.com/charan270469/medisense/) &nbsp;|&nbsp; [Live demo](https://medisense-two.vercel.app/) |
+| **Feature** | Longitudinal biomarker tracking across a patient's history |
+
+🔗 [GitHub repo](https://github.com/charan270469/medisense/) &nbsp;|&nbsp; 🌐 [Live demo](https://medisense-two.vercel.app/)
 
 </details>
 
 <details>
-<summary><b>ScanGo</b> &nbsp;|&nbsp; Smart retail AI ecosystem</summary>
+<summary><b>🛒 ScanGo</b> &nbsp;|&nbsp; Smart retail AI ecosystem &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-Retail checkout ecosystem recognized on two national hackathon tracks.
+**The story:** checkout lines are friction, and store Wi-Fi is unreliable. ScanGo is an offline first PWA with WebSocket sync and concurrency control, so scan and go checkout keeps working and stays consistent. It was recognized on two separate national hackathon tracks.
 
 | | |
 |:--|:--|
 | **Stack** | React, Node.js, WebSocket, offline first PWA |
-| **Approach** | Offline first PWA with WebSocket sync and concurrency control for scan and go checkout. |
-| **Impact** | Top 20 at TechSprint 2025/26, Top 80 at NEXTGEN-AI 2026 |
-| **Links** | [GitHub](https://github.com/charan270469/scan-go) &nbsp;|&nbsp; [Walkthrough](https://drive.google.com/file/d/1CGmuhM_kBrNfP0_xkb4GTxOSebq5yiXF/view?usp=sharing) |
+| **Result** | 🏆 Top 20 at TechSprint 2025/26 and Top 80 at NEXTGEN-AI 2026 |
+
+🔗 [GitHub repo](https://github.com/charan270469/scan-go) &nbsp;|&nbsp; 🎬 [Demo walkthrough](https://drive.google.com/file/d/1CGmuhM_kBrNfP0_xkb4GTxOSebq5yiXF/view?usp=sharing)
 
 </details>
 
 <details>
-<summary><b>FinVoice</b> &nbsp;|&nbsp; Voice first multilingual banking assistant</summary>
+<summary><b>🎙️ FinVoice</b> &nbsp;|&nbsp; Voice first multilingual banking assistant &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-Voice banking assistant built under a 48 hour constraint.
+**The story:** built at Agentathon 2025, a Guinness World Record event, in 48 hours. Real time STT and TTS streaming with multilingual intent classification, and a mid hackathon fix of the WebSocket latency bottlenecks that kept the pipeline stable under concurrent load.
 
 | | |
 |:--|:--|
 | **Stack** | FastAPI, React, TypeScript, Groq, WebSocket |
-| **Approach** | Real time STT and TTS streaming with multilingual intent classification, stabilized under concurrent load by fixing WebSocket latency bottlenecks mid hackathon. |
-| **Impact** | Built at Agentathon 2025, a Guinness World Record event with ~2,400 participants |
-| **Links** | [GitHub](https://github.com/charan270469/finvoice) |
+| **Result** | 🌍 Guinness World Record event with ~2,400 participants |
+
+🔗 [GitHub repo](https://github.com/charan270469/finvoice)
 
 </details>
 
 <details>
-<summary><b>Heart Disease Prediction</b> &nbsp;|&nbsp; Five model comparison on UCI data</summary>
+<summary><b>❤️ Heart Disease Prediction</b> &nbsp;|&nbsp; Five model showdown on UCI data &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-Built during an AI/ML bootcamp.
+**The question:** which classic ML model really wins on a small clinical dataset? I compared five, with tuning and evaluation, during an AI/ML bootcamp. A simple KNN beat everything else.
 
 | | |
 |:--|:--|
 | **Stack** | Python, scikit-learn, TensorFlow/Keras, Pandas, NumPy, Matplotlib |
-| **Models** | KNN (best, 91.8%, n_neighbors 8), Random Forest 86.8%, Decision Tree 80.1%, SVM 73.5%, ANN (4 hidden layers with Dropout) |
-| **Method** | One hot encoding, StandardScaler, 80/20 split, RandomizedSearchCV tuning. Thalassemia was the top feature. |
-| **Links** | [GitHub](https://github.com/charan270469/Heart_Disease_Prediction_project) &nbsp;|&nbsp; [Presentation](https://gamma.app/docs/Charans-Heart-Disease-Prediction-Toolkit-7vxxkg53iewz660) &nbsp;|&nbsp; [Demo video](https://drive.google.com/file/d/1GmMGwO-M09sq94DGsX9S8d9kRzKLU0U3/view?usp=drive_link) |
+| **Results** | KNN 91.8% (n_neighbors 8), Random Forest 86.8%, Decision Tree 80.1%, SVM 73.5%, ANN with 4 hidden layers and Dropout |
+| **Method** | One hot encoding, StandardScaler, 80/20 split, RandomizedSearchCV. Thalassemia was the most important feature. |
+
+🔗 [GitHub repo](https://github.com/charan270469/Heart_Disease_Prediction_project) &nbsp;|&nbsp; 🎬 [Demo video](https://drive.google.com/file/d/1GmMGwO-M09sq94DGsX9S8d9kRzKLU0U3/view?usp=drive_link) &nbsp;|&nbsp; 📑 [Presentation](https://gamma.app/docs/Charans-Heart-Disease-Prediction-Toolkit-7vxxkg53iewz660)
 
 </details>
 
 <br/>
 
-## EXPERIENCE
+## 💼 EXPERIENCE
 
 <details>
-<summary><b>AI Developer Intern</b> &nbsp;|&nbsp; VISWAM.AI (Telugu LLM) &nbsp;|&nbsp; Hyderabad &nbsp;|&nbsp; May 2025 to Jul 2025</summary>
+<summary><b>🧠 AI Developer Intern</b> &nbsp;|&nbsp; VISWAM.AI (Telugu LLM) &nbsp;|&nbsp; Hyderabad, May 2025 to Jul 2025 &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-- Sustained 10K+ sentences per second on a 1B parameter LLM by rearchitecting async queuing and batch scheduling, validated by controlled before and after GPU benchmarks that removed the concurrency bottlenecks behind multi user serving failures.
-- Cut model training time 30% by building modular LoRA and SFT pipelines with Hugging Face Transformers and PyTorch over a 500M token, 12 domain corpus.
+- Sustained **10K+ sentences per second** on a 1B parameter LLM by rearchitecting async queuing and batch scheduling, validated by controlled before and after GPU benchmarks that removed the concurrency bottlenecks behind multi user serving failures.
+- Cut model training time **30%** by building modular LoRA and SFT pipelines with Hugging Face Transformers and PyTorch over a 500M token, 12 domain corpus.
 
 </details>
 
 <details>
-<summary><b>Cloud Computing Intern</b> &nbsp;|&nbsp; Mindenious Edutech &nbsp;|&nbsp; Remote &nbsp;|&nbsp; Nov 2025 to Jan 2026</summary>
+<summary><b>☁️ Cloud Computing Intern</b> &nbsp;|&nbsp; Mindenious Edutech &nbsp;|&nbsp; Remote, Nov 2025 to Jan 2026 &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-- Cut Azure storage costs about 30% with zero query availability loss by applying Hot to Cool lifecycle tiering to an IoT Hub, Blob Storage and Power BI pipeline on Linux based infrastructure, validated by post transition query tests.
-- Deployed the application on an AKS cluster and defined data flow and access architecture with IAM and RBAC governance.
+- Cut Azure storage costs about **30%** with zero query availability loss by applying Hot to Cool lifecycle tiering to an IoT Hub, Blob Storage and Power BI pipeline on Linux based infrastructure, validated by post transition query tests.
+- Deployed the application on an **AKS cluster** and defined data flow and access architecture with IAM and RBAC governance.
 
 </details>
 
-**UI/UX Design Intern**, SEPONTY
+🎨 **UI/UX Design Intern**, SEPONTY
 
 <br/>
 
-## RECOGNITION
+## 🏆 RECOGNITION
 
 | | |
 |:--|:--|
@@ -241,9 +267,11 @@ Built during an AI/ML bootcamp.
 
 <br/>
 
-## CONNECT
+## 🤝 LET'S CONNECT
 
-[Portfolio](https://saicharandev.netlify.app/) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/sai-charan-aiml/) &nbsp;|&nbsp; [GitHub](https://github.com/charan270469) &nbsp;|&nbsp; [LeetCode](https://leetcode.com/charan_2369/) &nbsp;|&nbsp; [Email](mailto:narahc2704@gmail.com)
+If you are building with LLMs, agents or full stack AI products and want someone who ships fast and thinks in systems, I would love to talk.
+
+[🌐 Portfolio](https://saicharandev.netlify.app/) &nbsp;|&nbsp; [💼 LinkedIn](https://www.linkedin.com/in/sai-charan-aiml/) &nbsp;|&nbsp; [🐙 GitHub](https://github.com/charan270469) &nbsp;|&nbsp; [🧩 LeetCode](https://leetcode.com/charan_2369/) &nbsp;|&nbsp; [📧 Email](mailto:narahc2704@gmail.com)
 
 <br/>
 
