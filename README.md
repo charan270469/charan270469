@@ -25,9 +25,13 @@
 
 > **Detach & do it...**
 
-I started as a **designer**. For 3+ years I built brands for 50+ clients, which taught me to obsess over how things look, feel and communicate. Then I got pulled into the part that makes products actually *think*: data, LLMs and agents. Today I am a final year **B.Tech (Data Science & AI)** student at **ICFAI Hyderabad** (graduating **May 2027**, GPA **8.24 / 10**), and I build systems where the architecture is as deliberate as the interface.
+<p align="justify">
+I started as a <b>designer</b>. For 3+ years I built brands for 50+ clients, which taught me to obsess over how things look, feel and communicate. Then I got pulled into the part that makes products actually <i>think</i>: data, LLMs and agents. Today I am a final year <b>B.Tech (Data Science & AI)</b> student at <b>ICFAI Hyderabad</b> (graduating <b>May 2027</b>, GPA <b>8.24 / 10</b>), and I build systems where the architecture is as deliberate as the interface.
+</p>
 
-That mix shows up in everything I ship: **auditable decisions, graceful failure and interfaces that do not feel like side projects.** I test those ideas under real pressure, at hackathons with tens of thousands of teams, then harden the winners like production software.
+<p align="justify">
+That mix shows up in everything I ship: <b>auditable decisions, graceful failure and interfaces that do not feel like side projects.</b> I test those ideas under real pressure, at hackathons with tens of thousands of teams, then harden the winners like production software.
+</p>
 
 🎯 **Open to** AI/ML engineering, GenAI/LLM and full stack internships &nbsp;|&nbsp; 📍 Hyderabad or remote &nbsp;|&nbsp; 🤝 PPO track preferred
 
@@ -120,9 +124,13 @@ That mix shows up in everything I ship: **auditable decisions, graceful failure 
 <summary><b>📬 DailyEz</b> &nbsp;|&nbsp; AI unified inbox &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-**The problem:** the messages that change your career, like interviews and recruiter replies, get buried under newsletters, job board spam and community chat noise.
+<p align="justify">
+<b>The problem:</b> the messages that change your career, like interviews and recruiter replies, get buried under newsletters, job board spam and community chat noise.
+</p>
 
-**The idea:** instead of keywords, you describe what matters in plain language. These are your *Signals*. A strict, precision first LLM reasons about sender, topic and event intent, then returns a verdict with confidence and auditable reasoning.
+<p align="justify">
+<b>The idea:</b> instead of keywords, you describe what matters in plain language. These are your <i>Signals</i>. A strict, precision first LLM reasons about sender, topic and event intent, then returns a verdict with confidence and auditable reasoning.
+</p>
 
 | | |
 |:--|:--|
@@ -139,14 +147,16 @@ That mix shows up in everything I ship: **auditable decisions, graceful failure 
 <summary><b>🤖 AutoOps AI</b> &nbsp;|&nbsp; Multi agent orchestration engine &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-**The story:** built in 48 hours for the ET GenAI Hackathon, where most teams shipped a single agent demo. I built an engine that treats failure as a first class citizen. A planner decides, executors act, and every step is retried, escalated or rolled back through defined fallback chains, with a verifiable audit trail and a live WebSocket dashboard showing agent state.
+<p align="justify">
+<b>The story:</b> built in 48 hours for the ET GenAI Hackathon, where most teams shipped a single agent demo. I built an engine that treats failure as a first class citizen. A planner decides, executors act, and every step is retried, escalated or rolled back through defined fallback chains, with a verifiable audit trail and a live WebSocket dashboard showing agent state.
+</p>
 
 | | |
 |:--|:--|
 | **Stack** | Node.js, TypeScript, WebSocket, Groq Llama 3.3 70B, n8n, React |
 | **Scale** | 12 enterprise automation scenarios with concurrent multi agent execution |
 | **Performance** | 80%+ autonomous task completion |
-| **Result** | 🏆 Semi finalist, Top 110 of 54,617 teams, ET GenAI Hackathon 2026 |
+| **Result** | 🏆 Semi-finalist, Top 110 of 54,617 teams, ET GenAI Hackathon 2026 |
 
 🔗 [GitHub repo](https://github.com/charan270469/autoops_ai) &nbsp;|&nbsp; 🎬 [Demo walkthrough](https://drive.google.com/file/d/1ZWAW8bVxsTcjMI7AtAJwUkqF6SSlElbS/view?usp=drive_link)
 
@@ -156,7 +166,9 @@ That mix shows up in everything I ship: **auditable decisions, graceful failure 
 <summary><b>🏦 LoanLens AI</b> &nbsp;|&nbsp; Credit risk and underwriting platform &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-**The story:** a credit model is only useful if a human can trust and audit it. LoanLens pairs a calibrated gradient boosting ensemble with document grounded RAG, so every score comes with the reasons behind it and the lending documents that support it.
+<p align="justify">
+<b>The story:</b> a credit model is only useful if a human can trust and audit it. LoanLens pairs a calibrated gradient boosting ensemble with document grounded RAG, so every score comes with the reasons behind it and the lending documents that support it.
+</p>
 
 | | |
 |:--|:--|
@@ -173,7 +185,9 @@ That mix shows up in everything I ship: **auditable decisions, graceful failure 
 <summary><b>🩺 MediSense AI</b> &nbsp;|&nbsp; Multimodal medical assistant &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-**The story:** medical history lives in two worlds, structured records and scanned reports. MediSense puts both on one retrieval surface. A Groq VLM reads scanned documents with OCR and feeds a LangChain RAG layer, so clinical reasoning works across everything, with secured patient data handling.
+<p align="justify">
+<b>The story:</b> medical history lives in two worlds, structured records and scanned reports. MediSense puts both on one retrieval surface. A Groq VLM reads scanned documents with OCR and feeds a LangChain RAG layer, so clinical reasoning works across everything, with secured patient data handling.
+</p>
 
 | | |
 |:--|:--|
@@ -188,12 +202,14 @@ That mix shows up in everything I ship: **auditable decisions, graceful failure 
 <summary><b>🛒 ScanGo</b> &nbsp;|&nbsp; Smart retail AI ecosystem &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-**The story:** checkout lines are friction, and store Wi-Fi is unreliable. ScanGo is an offline first PWA with WebSocket sync and concurrency control, so scan and go checkout keeps working and stays consistent. It was recognized on two separate national hackathon tracks.
+<p align="justify">
+<b>The story:</b> checkout lines are friction, and store Wi-Fi is unreliable. ScanGo is an offline first PWA with WebSocket sync and concurrency control, so scan and go checkout keeps working and stays consistent. It was recognized on two separate national hackathon tracks.
+</p>
 
 | | |
 |:--|:--|
 | **Stack** | React, Node.js, WebSocket, offline first PWA |
-| **Result** | 🏆 Top 20 at TechSprint 2025/26 and Top 80 at NEXTGEN-AI 2026 |
+| **Result** | 🏆 Top 20 nationally at TechSprint 2025-26 and Top 80 of 1,000+ teams at NEXTGEN-AI 2026 |
 
 🔗 [GitHub repo](https://github.com/charan270469/scan-go) &nbsp;|&nbsp; 🎬 [Demo walkthrough](https://drive.google.com/file/d/1CGmuhM_kBrNfP0_xkb4GTxOSebq5yiXF/view?usp=sharing)
 
@@ -203,7 +219,9 @@ That mix shows up in everything I ship: **auditable decisions, graceful failure 
 <summary><b>🎙️ FinVoice</b> &nbsp;|&nbsp; Voice first multilingual banking assistant &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-**The story:** built at Agentathon 2025, a Guinness World Record event, in 48 hours. Real time STT and TTS streaming with multilingual intent classification, and a mid hackathon fix of the WebSocket latency bottlenecks that kept the pipeline stable under concurrent load.
+<p align="justify">
+<b>The story:</b> built at Agentathon 2025, a Guinness World Record event, in 48 hours. Real time STT and TTS streaming with multilingual intent classification, and a mid hackathon fix of the WebSocket latency bottlenecks that kept the pipeline stable under concurrent load.
+</p>
 
 | | |
 |:--|:--|
@@ -218,7 +236,9 @@ That mix shows up in everything I ship: **auditable decisions, graceful failure 
 <summary><b>❤️ Heart Disease Prediction</b> &nbsp;|&nbsp; Five model showdown on UCI data &nbsp;<i>(click to read more)</i></summary>
 <br/>
 
-**The question:** which classic ML model really wins on a small clinical dataset? I compared five, with tuning and evaluation, during an AI/ML bootcamp. A simple KNN beat everything else.
+<p align="justify">
+<b>The question:</b> which classic ML model really wins on a small clinical dataset? I compared five, with tuning and evaluation, during an AI/ML bootcamp. A simple KNN beat everything else.
+</p>
 
 | | |
 |:--|:--|
@@ -252,7 +272,14 @@ That mix shows up in everything I ship: **auditable decisions, graceful failure 
 
 </details>
 
-🎨 **UI/UX Design Intern**, SEPONTY
+<details>
+<summary><b>🎨 UI/UX Design Intern</b> &nbsp;|&nbsp; SEPONTY &nbsp;|&nbsp; Remote, Feb 2024 to Apr 2024 &nbsp;<i>(click to read more)</i></summary>
+<br/>
+
+- Converted UI/UX designs into functional interaction patterns and component specs for **Tepnoty**, an AI chatbot app, with direct hands-on practice turning design files into buildable front-end structure.
+- Independently delivered **50+ client web and branding interfaces** over 3 years of freelance work, end to end from design handoff to a finished, responsive page.
+
+</details>
 
 <br/>
 
@@ -260,18 +287,28 @@ That mix shows up in everything I ship: **auditable decisions, graceful failure 
 
 | | |
 |:--|:--|
-| **ET GenAI Hackathon 2026** | Semi finalist, Top 110 of 54,617 teams (AutoOps AI) |
-| **TechSprint 2025/26** | Top 20 (ScanGo) |
-| **NEXTGEN-AI 2026** | Top 80 (ScanGo) |
+| **ET GenAI Hackathon 2026** | Semi-finalist, Top 110 of 54,617 teams (AutoOps AI) |
+| **TechSprint 2025-26** | Top 20 nationally (ScanGo) |
+| **NEXTGEN-AI 2026** | Top 80 of 1,000+ teams (ScanGo) |
 | **Agentathon 2025** | Guinness World Record event, ~2,400 participants (FinVoice) |
 
 <br/>
 
 ## 🤝 LET'S CONNECT
 
+<p align="justify">
 If you are building with LLMs, agents or full stack AI products and want someone who ships fast and thinks in systems, I would love to talk.
+</p>
 
-[🌐 Portfolio](https://saicharandev.netlify.app/) &nbsp;|&nbsp; [💼 LinkedIn](https://www.linkedin.com/in/sai-charan-aiml/) &nbsp;|&nbsp; [🐙 GitHub](https://github.com/charan270469) &nbsp;|&nbsp; [🧩 LeetCode](https://leetcode.com/charan_2369/) &nbsp;|&nbsp; [📧 Email](mailto:narahc2704@gmail.com)
+<div align="center">
+
+<a href="https://saicharandev.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-saicharandev.netlify.app-F2B98A?style=for-the-badge&labelColor=282524&logo=googlechrome&logoColor=F2B98A"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/sai-charan-aiml/"><img src="https://img.shields.io/badge/LINKEDIN-1,140+_followers-F2B98A?style=for-the-badge&labelColor=282524&logo=linkedin&logoColor=F2B98A"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/charan270469"><img src="https://img.shields.io/badge/GITHUB-charan270469-F2B98A?style=for-the-badge&labelColor=282524&logo=github&logoColor=F2B98A"/></a>
+
+<br/>
+
+<a href="https://leetcode.com/charan_2369/"><img src="https://img.shields.io/badge/LEETCODE-charan__2369-F2B98A?style=for-the-badge&labelColor=282524&logo=leetcode&logoColor=F2B98A"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:narahc2704@gmail.com"><img src="https://img.shields.io/badge/EMAIL-narahc2704@gmail.com-F2B98A?style=for-the-badge&labelColor=282524&logo=gmail&logoColor=F2B98A"/></a>
+
+</div>
 
 <br/>
 
