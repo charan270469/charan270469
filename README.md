@@ -311,8 +311,6 @@ If you are building with LLMs, agents or full stack AI products and want someone
 
 </div>
 
-<br/>
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1C1A19,60:6B4A33,100:C5956E&height=110&section=footer" width="100%"/>
